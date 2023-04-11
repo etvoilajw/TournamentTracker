@@ -113,6 +113,7 @@
             Margin = new Padding(5, 6, 5, 6);
             Name = "TournamentDashboardForm";
             Text = "Tournament Dashboard";
+            Load += TournamentDashboardForm_Load;
             ResumeLayout(false);
             PerformLayout();
         }
