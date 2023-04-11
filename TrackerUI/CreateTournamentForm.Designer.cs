@@ -64,10 +64,10 @@
             // tournamentNameValue
             // 
             tournamentNameValue.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            tournamentNameValue.Location = new Point(39, 177);
+            tournamentNameValue.Location = new Point(48, 177);
             tournamentNameValue.Margin = new Padding(4, 4, 4, 4);
             tournamentNameValue.Name = "tournamentNameValue";
-            tournamentNameValue.Size = new Size(345, 29);
+            tournamentNameValue.Size = new Size(336, 29);
             tournamentNameValue.TabIndex = 10;
             // 
             // tournamentNameLabel
