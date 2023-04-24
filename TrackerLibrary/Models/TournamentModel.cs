@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TrackerLibrary
+namespace TrackerLibrary.Models
 {
     /// <summary>
     /// Represents the tournament
@@ -30,7 +30,7 @@ namespace TrackerLibrary
         /// Represents the list of prizes for this tournament
         /// </summary>
         public List<PrizeModel> Prizes { get; set; } = new List<PrizeModel>();
-        
+
         /// <summary>
         /// Represents the list of rounds in this tournament
         /// </summary>

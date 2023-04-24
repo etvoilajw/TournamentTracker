@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TrackerLibrary
+namespace TrackerLibrary.Models
 {
     /// <summary>
     /// Represents the prize
@@ -37,9 +37,9 @@ namespace TrackerLibrary
 
         public PrizeModel()
         {
-            
+
         }
-        public PrizeModel(string placeName, string placeNumber, string prizeAmount, string prizePercentage) 
+        public PrizeModel(string placeName, string placeNumber, string prizeAmount, string prizePercentage)
         {
             PlaceName = placeName;
 
